@@ -33,3 +33,13 @@ function longthreeGuest(){
     countGuest += 3
     scoreGuestEl.textContent = countGuest
 }
+
+// Reset button
+
+function reset(){
+    scoreHomeEl.textContent = 0
+    scoreGuestEl.textContent = 0
+    countHome = 0
+    countGuest = 0
+    console.log("Score reset");
+}
